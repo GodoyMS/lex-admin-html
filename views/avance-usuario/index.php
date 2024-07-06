@@ -73,7 +73,7 @@
                                     </svg>
                                     Filtros
                                 </button>
-                          
+
                             </div>
                             <div
                                 class="flex justify-center gap-2 items-center rounded-xl p-2 bg-blue-600 bg-opacity-10">
@@ -129,6 +129,873 @@
                                 </tr>
                             </thead>
                             <tbody>
+                                <tr class="border-b ">
+                                    <th scope="row" class="px-4 py-3 font-medium text-gray-900 whitespace-nowrap ">Apple
+                                        iMac 27&#34;</th>
+                                    <td class="px-4 py-3">PC</td>
+                                    <td class="px-4 py-3">Apple</td>
+                                    <td class="px-4 py-3">Softbelt</td>
+                                    <td class="px-4 py-3">152</td>
+                                    <td class="px-4 py-3">5</td>
+                                    <td class="px-4 py-3">2</td>
+                                    <td class="px-4 py-3">Activo (90 dias)</td>
+                                    <td class="px-4 py-3">15/06/2023</td>
+                                    <td class="px-4 py-3">15/08/2023</td>
+                                    <td class="px-4 py-3">152</td>
+
+                                    <td class="px-4 py-3 flex items-center gap-2 justify-start">
+                                        <button data-modal-target="details-modal" data-modal-toggle="details-modal"
+                                            class=" bg-blue-50  gap-2 border  rounded-md px-2 py-1 inline-flex items-center text-sm font-medium text-center text-blue-600 hover:bg-blue-100 hover:text-blue-700 transition duration-300ç  focus:outline-none  "
+                                            type="button">
+                                            Detalles
+                                            <svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                                viewBox="0 0 512 512" class=" w-5 h-5 "
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M64 64c0-17.7-14.3-32-32-32S0 46.3 0 64V400c0 44.2 35.8 80 80 80H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H80c-8.8 0-16-7.2-16-16V64zm406.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L320 210.7l-57.4-57.4c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L240 221.3l57.4 57.4c12.5 12.5 32.8 12.5 45.3 0l128-128z">
+                                                </path>
+                                            </svg>
+                                        </button>
+
+                                        <button data-modal-target="details-class-modal"
+                                            data-modal-toggle="details-class-modal"
+                                            class=" bg-blue-50  gap-2 border  rounded-md px-2 py-1 inline-flex items-center text-sm font-medium text-center text-blue-600 hover:bg-blue-100 hover:text-blue-700 transition duration-300ç  focus:outline-none  "
+                                            type="button">
+                                            Avance
+                                            <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24"
+                                                stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M13 5h8"></path>
+                                                <path d="M13 9h5"></path>
+                                                <path d="M13 15h8"></path>
+                                                <path d="M13 19h5"></path>
+                                                <path
+                                                    d="M3 4m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z">
+                                                </path>
+                                                <path
+                                                    d="M3 14m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z">
+                                                </path>
+                                            </svg>
+                                        </button>
+
+                                    </td>
+                                </tr>
+                                <tr class="border-b ">
+                                    <th scope="row" class="px-4 py-3 font-medium text-gray-900 whitespace-nowrap ">Apple
+                                        iMac 27&#34;</th>
+                                    <td class="px-4 py-3">PC</td>
+                                    <td class="px-4 py-3">Apple</td>
+                                    <td class="px-4 py-3">Softbelt</td>
+                                    <td class="px-4 py-3">152</td>
+                                    <td class="px-4 py-3">5</td>
+                                    <td class="px-4 py-3">2</td>
+                                    <td class="px-4 py-3">Activo (90 dias)</td>
+                                    <td class="px-4 py-3">15/06/2023</td>
+                                    <td class="px-4 py-3">15/08/2023</td>
+                                    <td class="px-4 py-3">152</td>
+
+                                    <td class="px-4 py-3 flex items-center gap-2 justify-start">
+                                        <button data-modal-target="details-modal" data-modal-toggle="details-modal"
+                                            class=" bg-blue-50  gap-2 border  rounded-md px-2 py-1 inline-flex items-center text-sm font-medium text-center text-blue-600 hover:bg-blue-100 hover:text-blue-700 transition duration-300ç  focus:outline-none  "
+                                            type="button">
+                                            Detalles
+                                            <svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                                viewBox="0 0 512 512" class=" w-5 h-5 "
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M64 64c0-17.7-14.3-32-32-32S0 46.3 0 64V400c0 44.2 35.8 80 80 80H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H80c-8.8 0-16-7.2-16-16V64zm406.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L320 210.7l-57.4-57.4c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L240 221.3l57.4 57.4c12.5 12.5 32.8 12.5 45.3 0l128-128z">
+                                                </path>
+                                            </svg>
+                                        </button>
+
+                                        <button data-modal-target="details-class-modal"
+                                            data-modal-toggle="details-class-modal"
+                                            class=" bg-blue-50  gap-2 border  rounded-md px-2 py-1 inline-flex items-center text-sm font-medium text-center text-blue-600 hover:bg-blue-100 hover:text-blue-700 transition duration-300ç  focus:outline-none  "
+                                            type="button">
+                                            Avance
+                                            <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24"
+                                                stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M13 5h8"></path>
+                                                <path d="M13 9h5"></path>
+                                                <path d="M13 15h8"></path>
+                                                <path d="M13 19h5"></path>
+                                                <path
+                                                    d="M3 4m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z">
+                                                </path>
+                                                <path
+                                                    d="M3 14m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z">
+                                                </path>
+                                            </svg>
+                                        </button>
+
+                                    </td>
+                                </tr>
+                                <tr class="border-b ">
+                                    <th scope="row" class="px-4 py-3 font-medium text-gray-900 whitespace-nowrap ">Apple
+                                        iMac 27&#34;</th>
+                                    <td class="px-4 py-3">PC</td>
+                                    <td class="px-4 py-3">Apple</td>
+                                    <td class="px-4 py-3">Softbelt</td>
+                                    <td class="px-4 py-3">152</td>
+                                    <td class="px-4 py-3">5</td>
+                                    <td class="px-4 py-3">2</td>
+                                    <td class="px-4 py-3">Activo (90 dias)</td>
+                                    <td class="px-4 py-3">15/06/2023</td>
+                                    <td class="px-4 py-3">15/08/2023</td>
+                                    <td class="px-4 py-3">152</td>
+
+                                    <td class="px-4 py-3 flex items-center gap-2 justify-start">
+                                        <button data-modal-target="details-modal" data-modal-toggle="details-modal"
+                                            class=" bg-blue-50  gap-2 border  rounded-md px-2 py-1 inline-flex items-center text-sm font-medium text-center text-blue-600 hover:bg-blue-100 hover:text-blue-700 transition duration-300ç  focus:outline-none  "
+                                            type="button">
+                                            Detalles
+                                            <svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                                viewBox="0 0 512 512" class=" w-5 h-5 "
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M64 64c0-17.7-14.3-32-32-32S0 46.3 0 64V400c0 44.2 35.8 80 80 80H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H80c-8.8 0-16-7.2-16-16V64zm406.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L320 210.7l-57.4-57.4c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L240 221.3l57.4 57.4c12.5 12.5 32.8 12.5 45.3 0l128-128z">
+                                                </path>
+                                            </svg>
+                                        </button>
+
+                                        <button data-modal-target="details-class-modal"
+                                            data-modal-toggle="details-class-modal"
+                                            class=" bg-blue-50  gap-2 border  rounded-md px-2 py-1 inline-flex items-center text-sm font-medium text-center text-blue-600 hover:bg-blue-100 hover:text-blue-700 transition duration-300ç  focus:outline-none  "
+                                            type="button">
+                                            Avance
+                                            <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24"
+                                                stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M13 5h8"></path>
+                                                <path d="M13 9h5"></path>
+                                                <path d="M13 15h8"></path>
+                                                <path d="M13 19h5"></path>
+                                                <path
+                                                    d="M3 4m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z">
+                                                </path>
+                                                <path
+                                                    d="M3 14m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z">
+                                                </path>
+                                            </svg>
+                                        </button>
+
+                                    </td>
+                                </tr>
+                                <tr class="border-b ">
+                                    <th scope="row" class="px-4 py-3 font-medium text-gray-900 whitespace-nowrap ">Apple
+                                        iMac 27&#34;</th>
+                                    <td class="px-4 py-3">PC</td>
+                                    <td class="px-4 py-3">Apple</td>
+                                    <td class="px-4 py-3">Softbelt</td>
+                                    <td class="px-4 py-3">152</td>
+                                    <td class="px-4 py-3">5</td>
+                                    <td class="px-4 py-3">2</td>
+                                    <td class="px-4 py-3">Activo (90 dias)</td>
+                                    <td class="px-4 py-3">15/06/2023</td>
+                                    <td class="px-4 py-3">15/08/2023</td>
+                                    <td class="px-4 py-3">152</td>
+
+                                    <td class="px-4 py-3 flex items-center gap-2 justify-start">
+                                        <button data-modal-target="details-modal" data-modal-toggle="details-modal"
+                                            class=" bg-blue-50  gap-2 border  rounded-md px-2 py-1 inline-flex items-center text-sm font-medium text-center text-blue-600 hover:bg-blue-100 hover:text-blue-700 transition duration-300ç  focus:outline-none  "
+                                            type="button">
+                                            Detalles
+                                            <svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                                viewBox="0 0 512 512" class=" w-5 h-5 "
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M64 64c0-17.7-14.3-32-32-32S0 46.3 0 64V400c0 44.2 35.8 80 80 80H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H80c-8.8 0-16-7.2-16-16V64zm406.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L320 210.7l-57.4-57.4c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L240 221.3l57.4 57.4c12.5 12.5 32.8 12.5 45.3 0l128-128z">
+                                                </path>
+                                            </svg>
+                                        </button>
+
+                                        <button data-modal-target="details-class-modal"
+                                            data-modal-toggle="details-class-modal"
+                                            class=" bg-blue-50  gap-2 border  rounded-md px-2 py-1 inline-flex items-center text-sm font-medium text-center text-blue-600 hover:bg-blue-100 hover:text-blue-700 transition duration-300ç  focus:outline-none  "
+                                            type="button">
+                                            Avance
+                                            <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24"
+                                                stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M13 5h8"></path>
+                                                <path d="M13 9h5"></path>
+                                                <path d="M13 15h8"></path>
+                                                <path d="M13 19h5"></path>
+                                                <path
+                                                    d="M3 4m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z">
+                                                </path>
+                                                <path
+                                                    d="M3 14m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z">
+                                                </path>
+                                            </svg>
+                                        </button>
+
+                                    </td>
+                                </tr>
+                                <tr class="border-b ">
+                                    <th scope="row" class="px-4 py-3 font-medium text-gray-900 whitespace-nowrap ">Apple
+                                        iMac 27&#34;</th>
+                                    <td class="px-4 py-3">PC</td>
+                                    <td class="px-4 py-3">Apple</td>
+                                    <td class="px-4 py-3">Softbelt</td>
+                                    <td class="px-4 py-3">152</td>
+                                    <td class="px-4 py-3">5</td>
+                                    <td class="px-4 py-3">2</td>
+                                    <td class="px-4 py-3">Activo (90 dias)</td>
+                                    <td class="px-4 py-3">15/06/2023</td>
+                                    <td class="px-4 py-3">15/08/2023</td>
+                                    <td class="px-4 py-3">152</td>
+
+                                    <td class="px-4 py-3 flex items-center gap-2 justify-start">
+                                        <button data-modal-target="details-modal" data-modal-toggle="details-modal"
+                                            class=" bg-blue-50  gap-2 border  rounded-md px-2 py-1 inline-flex items-center text-sm font-medium text-center text-blue-600 hover:bg-blue-100 hover:text-blue-700 transition duration-300ç  focus:outline-none  "
+                                            type="button">
+                                            Detalles
+                                            <svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                                viewBox="0 0 512 512" class=" w-5 h-5 "
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M64 64c0-17.7-14.3-32-32-32S0 46.3 0 64V400c0 44.2 35.8 80 80 80H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H80c-8.8 0-16-7.2-16-16V64zm406.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L320 210.7l-57.4-57.4c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L240 221.3l57.4 57.4c12.5 12.5 32.8 12.5 45.3 0l128-128z">
+                                                </path>
+                                            </svg>
+                                        </button>
+
+                                        <button data-modal-target="details-class-modal"
+                                            data-modal-toggle="details-class-modal"
+                                            class=" bg-blue-50  gap-2 border  rounded-md px-2 py-1 inline-flex items-center text-sm font-medium text-center text-blue-600 hover:bg-blue-100 hover:text-blue-700 transition duration-300ç  focus:outline-none  "
+                                            type="button">
+                                            Avance
+                                            <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24"
+                                                stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M13 5h8"></path>
+                                                <path d="M13 9h5"></path>
+                                                <path d="M13 15h8"></path>
+                                                <path d="M13 19h5"></path>
+                                                <path
+                                                    d="M3 4m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z">
+                                                </path>
+                                                <path
+                                                    d="M3 14m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z">
+                                                </path>
+                                            </svg>
+                                        </button>
+
+                                    </td>
+                                </tr>
+                                <tr class="border-b ">
+                                    <th scope="row" class="px-4 py-3 font-medium text-gray-900 whitespace-nowrap ">Apple
+                                        iMac 27&#34;</th>
+                                    <td class="px-4 py-3">PC</td>
+                                    <td class="px-4 py-3">Apple</td>
+                                    <td class="px-4 py-3">Softbelt</td>
+                                    <td class="px-4 py-3">152</td>
+                                    <td class="px-4 py-3">5</td>
+                                    <td class="px-4 py-3">2</td>
+                                    <td class="px-4 py-3">Activo (90 dias)</td>
+                                    <td class="px-4 py-3">15/06/2023</td>
+                                    <td class="px-4 py-3">15/08/2023</td>
+                                    <td class="px-4 py-3">152</td>
+
+                                    <td class="px-4 py-3 flex items-center gap-2 justify-start">
+                                        <button data-modal-target="details-modal" data-modal-toggle="details-modal"
+                                            class=" bg-blue-50  gap-2 border  rounded-md px-2 py-1 inline-flex items-center text-sm font-medium text-center text-blue-600 hover:bg-blue-100 hover:text-blue-700 transition duration-300ç  focus:outline-none  "
+                                            type="button">
+                                            Detalles
+                                            <svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                                viewBox="0 0 512 512" class=" w-5 h-5 "
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M64 64c0-17.7-14.3-32-32-32S0 46.3 0 64V400c0 44.2 35.8 80 80 80H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H80c-8.8 0-16-7.2-16-16V64zm406.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L320 210.7l-57.4-57.4c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L240 221.3l57.4 57.4c12.5 12.5 32.8 12.5 45.3 0l128-128z">
+                                                </path>
+                                            </svg>
+                                        </button>
+
+                                        <button data-modal-target="details-class-modal"
+                                            data-modal-toggle="details-class-modal"
+                                            class=" bg-blue-50  gap-2 border  rounded-md px-2 py-1 inline-flex items-center text-sm font-medium text-center text-blue-600 hover:bg-blue-100 hover:text-blue-700 transition duration-300ç  focus:outline-none  "
+                                            type="button">
+                                            Avance
+                                            <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24"
+                                                stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M13 5h8"></path>
+                                                <path d="M13 9h5"></path>
+                                                <path d="M13 15h8"></path>
+                                                <path d="M13 19h5"></path>
+                                                <path
+                                                    d="M3 4m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z">
+                                                </path>
+                                                <path
+                                                    d="M3 14m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z">
+                                                </path>
+                                            </svg>
+                                        </button>
+
+                                    </td>
+                                </tr>
+                                <tr class="border-b ">
+                                    <th scope="row" class="px-4 py-3 font-medium text-gray-900 whitespace-nowrap ">Apple
+                                        iMac 27&#34;</th>
+                                    <td class="px-4 py-3">PC</td>
+                                    <td class="px-4 py-3">Apple</td>
+                                    <td class="px-4 py-3">Softbelt</td>
+                                    <td class="px-4 py-3">152</td>
+                                    <td class="px-4 py-3">5</td>
+                                    <td class="px-4 py-3">2</td>
+                                    <td class="px-4 py-3">Activo (90 dias)</td>
+                                    <td class="px-4 py-3">15/06/2023</td>
+                                    <td class="px-4 py-3">15/08/2023</td>
+                                    <td class="px-4 py-3">152</td>
+
+                                    <td class="px-4 py-3 flex items-center gap-2 justify-start">
+                                        <button data-modal-target="details-modal" data-modal-toggle="details-modal"
+                                            class=" bg-blue-50  gap-2 border  rounded-md px-2 py-1 inline-flex items-center text-sm font-medium text-center text-blue-600 hover:bg-blue-100 hover:text-blue-700 transition duration-300ç  focus:outline-none  "
+                                            type="button">
+                                            Detalles
+                                            <svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                                viewBox="0 0 512 512" class=" w-5 h-5 "
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M64 64c0-17.7-14.3-32-32-32S0 46.3 0 64V400c0 44.2 35.8 80 80 80H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H80c-8.8 0-16-7.2-16-16V64zm406.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L320 210.7l-57.4-57.4c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L240 221.3l57.4 57.4c12.5 12.5 32.8 12.5 45.3 0l128-128z">
+                                                </path>
+                                            </svg>
+                                        </button>
+
+                                        <button data-modal-target="details-class-modal"
+                                            data-modal-toggle="details-class-modal"
+                                            class=" bg-blue-50  gap-2 border  rounded-md px-2 py-1 inline-flex items-center text-sm font-medium text-center text-blue-600 hover:bg-blue-100 hover:text-blue-700 transition duration-300ç  focus:outline-none  "
+                                            type="button">
+                                            Avance
+                                            <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24"
+                                                stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M13 5h8"></path>
+                                                <path d="M13 9h5"></path>
+                                                <path d="M13 15h8"></path>
+                                                <path d="M13 19h5"></path>
+                                                <path
+                                                    d="M3 4m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z">
+                                                </path>
+                                                <path
+                                                    d="M3 14m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z">
+                                                </path>
+                                            </svg>
+                                        </button>
+
+                                    </td>
+                                </tr>
+                                <tr class="border-b ">
+                                    <th scope="row" class="px-4 py-3 font-medium text-gray-900 whitespace-nowrap ">Apple
+                                        iMac 27&#34;</th>
+                                    <td class="px-4 py-3">PC</td>
+                                    <td class="px-4 py-3">Apple</td>
+                                    <td class="px-4 py-3">Softbelt</td>
+                                    <td class="px-4 py-3">152</td>
+                                    <td class="px-4 py-3">5</td>
+                                    <td class="px-4 py-3">2</td>
+                                    <td class="px-4 py-3">Activo (90 dias)</td>
+                                    <td class="px-4 py-3">15/06/2023</td>
+                                    <td class="px-4 py-3">15/08/2023</td>
+                                    <td class="px-4 py-3">152</td>
+
+                                    <td class="px-4 py-3 flex items-center gap-2 justify-start">
+                                        <button data-modal-target="details-modal" data-modal-toggle="details-modal"
+                                            class=" bg-blue-50  gap-2 border  rounded-md px-2 py-1 inline-flex items-center text-sm font-medium text-center text-blue-600 hover:bg-blue-100 hover:text-blue-700 transition duration-300ç  focus:outline-none  "
+                                            type="button">
+                                            Detalles
+                                            <svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                                viewBox="0 0 512 512" class=" w-5 h-5 "
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M64 64c0-17.7-14.3-32-32-32S0 46.3 0 64V400c0 44.2 35.8 80 80 80H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H80c-8.8 0-16-7.2-16-16V64zm406.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L320 210.7l-57.4-57.4c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L240 221.3l57.4 57.4c12.5 12.5 32.8 12.5 45.3 0l128-128z">
+                                                </path>
+                                            </svg>
+                                        </button>
+
+                                        <button data-modal-target="details-class-modal"
+                                            data-modal-toggle="details-class-modal"
+                                            class=" bg-blue-50  gap-2 border  rounded-md px-2 py-1 inline-flex items-center text-sm font-medium text-center text-blue-600 hover:bg-blue-100 hover:text-blue-700 transition duration-300ç  focus:outline-none  "
+                                            type="button">
+                                            Avance
+                                            <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24"
+                                                stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M13 5h8"></path>
+                                                <path d="M13 9h5"></path>
+                                                <path d="M13 15h8"></path>
+                                                <path d="M13 19h5"></path>
+                                                <path
+                                                    d="M3 4m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z">
+                                                </path>
+                                                <path
+                                                    d="M3 14m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z">
+                                                </path>
+                                            </svg>
+                                        </button>
+
+                                    </td>
+                                </tr>
+                                <tr class="border-b ">
+                                    <th scope="row" class="px-4 py-3 font-medium text-gray-900 whitespace-nowrap ">Apple
+                                        iMac 27&#34;</th>
+                                    <td class="px-4 py-3">PC</td>
+                                    <td class="px-4 py-3">Apple</td>
+                                    <td class="px-4 py-3">Softbelt</td>
+                                    <td class="px-4 py-3">152</td>
+                                    <td class="px-4 py-3">5</td>
+                                    <td class="px-4 py-3">2</td>
+                                    <td class="px-4 py-3">Activo (90 dias)</td>
+                                    <td class="px-4 py-3">15/06/2023</td>
+                                    <td class="px-4 py-3">15/08/2023</td>
+                                    <td class="px-4 py-3">152</td>
+
+                                    <td class="px-4 py-3 flex items-center gap-2 justify-start">
+                                        <button data-modal-target="details-modal" data-modal-toggle="details-modal"
+                                            class=" bg-blue-50  gap-2 border  rounded-md px-2 py-1 inline-flex items-center text-sm font-medium text-center text-blue-600 hover:bg-blue-100 hover:text-blue-700 transition duration-300ç  focus:outline-none  "
+                                            type="button">
+                                            Detalles
+                                            <svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                                viewBox="0 0 512 512" class=" w-5 h-5 "
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M64 64c0-17.7-14.3-32-32-32S0 46.3 0 64V400c0 44.2 35.8 80 80 80H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H80c-8.8 0-16-7.2-16-16V64zm406.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L320 210.7l-57.4-57.4c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L240 221.3l57.4 57.4c12.5 12.5 32.8 12.5 45.3 0l128-128z">
+                                                </path>
+                                            </svg>
+                                        </button>
+
+                                        <button data-modal-target="details-class-modal"
+                                            data-modal-toggle="details-class-modal"
+                                            class=" bg-blue-50  gap-2 border  rounded-md px-2 py-1 inline-flex items-center text-sm font-medium text-center text-blue-600 hover:bg-blue-100 hover:text-blue-700 transition duration-300ç  focus:outline-none  "
+                                            type="button">
+                                            Avance
+                                            <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24"
+                                                stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M13 5h8"></path>
+                                                <path d="M13 9h5"></path>
+                                                <path d="M13 15h8"></path>
+                                                <path d="M13 19h5"></path>
+                                                <path
+                                                    d="M3 4m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z">
+                                                </path>
+                                                <path
+                                                    d="M3 14m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z">
+                                                </path>
+                                            </svg>
+                                        </button>
+
+                                    </td>
+                                </tr>
+                                <tr class="border-b ">
+                                    <th scope="row" class="px-4 py-3 font-medium text-gray-900 whitespace-nowrap ">Apple
+                                        iMac 27&#34;</th>
+                                    <td class="px-4 py-3">PC</td>
+                                    <td class="px-4 py-3">Apple</td>
+                                    <td class="px-4 py-3">Softbelt</td>
+                                    <td class="px-4 py-3">152</td>
+                                    <td class="px-4 py-3">5</td>
+                                    <td class="px-4 py-3">2</td>
+                                    <td class="px-4 py-3">Activo (90 dias)</td>
+                                    <td class="px-4 py-3">15/06/2023</td>
+                                    <td class="px-4 py-3">15/08/2023</td>
+                                    <td class="px-4 py-3">152</td>
+
+                                    <td class="px-4 py-3 flex items-center gap-2 justify-start">
+                                        <button data-modal-target="details-modal" data-modal-toggle="details-modal"
+                                            class=" bg-blue-50  gap-2 border  rounded-md px-2 py-1 inline-flex items-center text-sm font-medium text-center text-blue-600 hover:bg-blue-100 hover:text-blue-700 transition duration-300ç  focus:outline-none  "
+                                            type="button">
+                                            Detalles
+                                            <svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                                viewBox="0 0 512 512" class=" w-5 h-5 "
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M64 64c0-17.7-14.3-32-32-32S0 46.3 0 64V400c0 44.2 35.8 80 80 80H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H80c-8.8 0-16-7.2-16-16V64zm406.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L320 210.7l-57.4-57.4c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L240 221.3l57.4 57.4c12.5 12.5 32.8 12.5 45.3 0l128-128z">
+                                                </path>
+                                            </svg>
+                                        </button>
+
+                                        <button data-modal-target="details-class-modal"
+                                            data-modal-toggle="details-class-modal"
+                                            class=" bg-blue-50  gap-2 border  rounded-md px-2 py-1 inline-flex items-center text-sm font-medium text-center text-blue-600 hover:bg-blue-100 hover:text-blue-700 transition duration-300ç  focus:outline-none  "
+                                            type="button">
+                                            Avance
+                                            <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24"
+                                                stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M13 5h8"></path>
+                                                <path d="M13 9h5"></path>
+                                                <path d="M13 15h8"></path>
+                                                <path d="M13 19h5"></path>
+                                                <path
+                                                    d="M3 4m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z">
+                                                </path>
+                                                <path
+                                                    d="M3 14m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z">
+                                                </path>
+                                            </svg>
+                                        </button>
+
+                                    </td>
+                                </tr>
+                                <tr class="border-b ">
+                                    <th scope="row" class="px-4 py-3 font-medium text-gray-900 whitespace-nowrap ">Apple
+                                        iMac 27&#34;</th>
+                                    <td class="px-4 py-3">PC</td>
+                                    <td class="px-4 py-3">Apple</td>
+                                    <td class="px-4 py-3">Softbelt</td>
+                                    <td class="px-4 py-3">152</td>
+                                    <td class="px-4 py-3">5</td>
+                                    <td class="px-4 py-3">2</td>
+                                    <td class="px-4 py-3">Activo (90 dias)</td>
+                                    <td class="px-4 py-3">15/06/2023</td>
+                                    <td class="px-4 py-3">15/08/2023</td>
+                                    <td class="px-4 py-3">152</td>
+
+                                    <td class="px-4 py-3 flex items-center gap-2 justify-start">
+                                        <button data-modal-target="details-modal" data-modal-toggle="details-modal"
+                                            class=" bg-blue-50  gap-2 border  rounded-md px-2 py-1 inline-flex items-center text-sm font-medium text-center text-blue-600 hover:bg-blue-100 hover:text-blue-700 transition duration-300ç  focus:outline-none  "
+                                            type="button">
+                                            Detalles
+                                            <svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                                viewBox="0 0 512 512" class=" w-5 h-5 "
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M64 64c0-17.7-14.3-32-32-32S0 46.3 0 64V400c0 44.2 35.8 80 80 80H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H80c-8.8 0-16-7.2-16-16V64zm406.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L320 210.7l-57.4-57.4c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L240 221.3l57.4 57.4c12.5 12.5 32.8 12.5 45.3 0l128-128z">
+                                                </path>
+                                            </svg>
+                                        </button>
+
+                                        <button data-modal-target="details-class-modal"
+                                            data-modal-toggle="details-class-modal"
+                                            class=" bg-blue-50  gap-2 border  rounded-md px-2 py-1 inline-flex items-center text-sm font-medium text-center text-blue-600 hover:bg-blue-100 hover:text-blue-700 transition duration-300ç  focus:outline-none  "
+                                            type="button">
+                                            Avance
+                                            <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24"
+                                                stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M13 5h8"></path>
+                                                <path d="M13 9h5"></path>
+                                                <path d="M13 15h8"></path>
+                                                <path d="M13 19h5"></path>
+                                                <path
+                                                    d="M3 4m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z">
+                                                </path>
+                                                <path
+                                                    d="M3 14m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z">
+                                                </path>
+                                            </svg>
+                                        </button>
+
+                                    </td>
+                                </tr>
+                                <tr class="border-b ">
+                                    <th scope="row" class="px-4 py-3 font-medium text-gray-900 whitespace-nowrap ">Apple
+                                        iMac 27&#34;</th>
+                                    <td class="px-4 py-3">PC</td>
+                                    <td class="px-4 py-3">Apple</td>
+                                    <td class="px-4 py-3">Softbelt</td>
+                                    <td class="px-4 py-3">152</td>
+                                    <td class="px-4 py-3">5</td>
+                                    <td class="px-4 py-3">2</td>
+                                    <td class="px-4 py-3">Activo (90 dias)</td>
+                                    <td class="px-4 py-3">15/06/2023</td>
+                                    <td class="px-4 py-3">15/08/2023</td>
+                                    <td class="px-4 py-3">152</td>
+
+                                    <td class="px-4 py-3 flex items-center gap-2 justify-start">
+                                        <button data-modal-target="details-modal" data-modal-toggle="details-modal"
+                                            class=" bg-blue-50  gap-2 border  rounded-md px-2 py-1 inline-flex items-center text-sm font-medium text-center text-blue-600 hover:bg-blue-100 hover:text-blue-700 transition duration-300ç  focus:outline-none  "
+                                            type="button">
+                                            Detalles
+                                            <svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                                viewBox="0 0 512 512" class=" w-5 h-5 "
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M64 64c0-17.7-14.3-32-32-32S0 46.3 0 64V400c0 44.2 35.8 80 80 80H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H80c-8.8 0-16-7.2-16-16V64zm406.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L320 210.7l-57.4-57.4c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L240 221.3l57.4 57.4c12.5 12.5 32.8 12.5 45.3 0l128-128z">
+                                                </path>
+                                            </svg>
+                                        </button>
+
+                                        <button data-modal-target="details-class-modal"
+                                            data-modal-toggle="details-class-modal"
+                                            class=" bg-blue-50  gap-2 border  rounded-md px-2 py-1 inline-flex items-center text-sm font-medium text-center text-blue-600 hover:bg-blue-100 hover:text-blue-700 transition duration-300ç  focus:outline-none  "
+                                            type="button">
+                                            Avance
+                                            <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24"
+                                                stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M13 5h8"></path>
+                                                <path d="M13 9h5"></path>
+                                                <path d="M13 15h8"></path>
+                                                <path d="M13 19h5"></path>
+                                                <path
+                                                    d="M3 4m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z">
+                                                </path>
+                                                <path
+                                                    d="M3 14m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z">
+                                                </path>
+                                            </svg>
+                                        </button>
+
+                                    </td>
+                                </tr>
+                                <tr class="border-b ">
+                                    <th scope="row" class="px-4 py-3 font-medium text-gray-900 whitespace-nowrap ">Apple
+                                        iMac 27&#34;</th>
+                                    <td class="px-4 py-3">PC</td>
+                                    <td class="px-4 py-3">Apple</td>
+                                    <td class="px-4 py-3">Softbelt</td>
+                                    <td class="px-4 py-3">152</td>
+                                    <td class="px-4 py-3">5</td>
+                                    <td class="px-4 py-3">2</td>
+                                    <td class="px-4 py-3">Activo (90 dias)</td>
+                                    <td class="px-4 py-3">15/06/2023</td>
+                                    <td class="px-4 py-3">15/08/2023</td>
+                                    <td class="px-4 py-3">152</td>
+
+                                    <td class="px-4 py-3 flex items-center gap-2 justify-start">
+                                        <button data-modal-target="details-modal" data-modal-toggle="details-modal"
+                                            class=" bg-blue-50  gap-2 border  rounded-md px-2 py-1 inline-flex items-center text-sm font-medium text-center text-blue-600 hover:bg-blue-100 hover:text-blue-700 transition duration-300ç  focus:outline-none  "
+                                            type="button">
+                                            Detalles
+                                            <svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                                viewBox="0 0 512 512" class=" w-5 h-5 "
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M64 64c0-17.7-14.3-32-32-32S0 46.3 0 64V400c0 44.2 35.8 80 80 80H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H80c-8.8 0-16-7.2-16-16V64zm406.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L320 210.7l-57.4-57.4c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L240 221.3l57.4 57.4c12.5 12.5 32.8 12.5 45.3 0l128-128z">
+                                                </path>
+                                            </svg>
+                                        </button>
+
+                                        <button data-modal-target="details-class-modal"
+                                            data-modal-toggle="details-class-modal"
+                                            class=" bg-blue-50  gap-2 border  rounded-md px-2 py-1 inline-flex items-center text-sm font-medium text-center text-blue-600 hover:bg-blue-100 hover:text-blue-700 transition duration-300ç  focus:outline-none  "
+                                            type="button">
+                                            Avance
+                                            <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24"
+                                                stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M13 5h8"></path>
+                                                <path d="M13 9h5"></path>
+                                                <path d="M13 15h8"></path>
+                                                <path d="M13 19h5"></path>
+                                                <path
+                                                    d="M3 4m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z">
+                                                </path>
+                                                <path
+                                                    d="M3 14m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z">
+                                                </path>
+                                            </svg>
+                                        </button>
+
+                                    </td>
+                                </tr>
+                                <tr class="border-b ">
+                                    <th scope="row" class="px-4 py-3 font-medium text-gray-900 whitespace-nowrap ">Apple
+                                        iMac 27&#34;</th>
+                                    <td class="px-4 py-3">PC</td>
+                                    <td class="px-4 py-3">Apple</td>
+                                    <td class="px-4 py-3">Softbelt</td>
+                                    <td class="px-4 py-3">152</td>
+                                    <td class="px-4 py-3">5</td>
+                                    <td class="px-4 py-3">2</td>
+                                    <td class="px-4 py-3">Activo (90 dias)</td>
+                                    <td class="px-4 py-3">15/06/2023</td>
+                                    <td class="px-4 py-3">15/08/2023</td>
+                                    <td class="px-4 py-3">152</td>
+
+                                    <td class="px-4 py-3 flex items-center gap-2 justify-start">
+                                        <button data-modal-target="details-modal" data-modal-toggle="details-modal"
+                                            class=" bg-blue-50  gap-2 border  rounded-md px-2 py-1 inline-flex items-center text-sm font-medium text-center text-blue-600 hover:bg-blue-100 hover:text-blue-700 transition duration-300ç  focus:outline-none  "
+                                            type="button">
+                                            Detalles
+                                            <svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                                viewBox="0 0 512 512" class=" w-5 h-5 "
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M64 64c0-17.7-14.3-32-32-32S0 46.3 0 64V400c0 44.2 35.8 80 80 80H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H80c-8.8 0-16-7.2-16-16V64zm406.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L320 210.7l-57.4-57.4c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L240 221.3l57.4 57.4c12.5 12.5 32.8 12.5 45.3 0l128-128z">
+                                                </path>
+                                            </svg>
+                                        </button>
+
+                                        <button data-modal-target="details-class-modal"
+                                            data-modal-toggle="details-class-modal"
+                                            class=" bg-blue-50  gap-2 border  rounded-md px-2 py-1 inline-flex items-center text-sm font-medium text-center text-blue-600 hover:bg-blue-100 hover:text-blue-700 transition duration-300ç  focus:outline-none  "
+                                            type="button">
+                                            Avance
+                                            <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24"
+                                                stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M13 5h8"></path>
+                                                <path d="M13 9h5"></path>
+                                                <path d="M13 15h8"></path>
+                                                <path d="M13 19h5"></path>
+                                                <path
+                                                    d="M3 4m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z">
+                                                </path>
+                                                <path
+                                                    d="M3 14m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z">
+                                                </path>
+                                            </svg>
+                                        </button>
+
+                                    </td>
+                                </tr>
+                                <tr class="border-b ">
+                                    <th scope="row" class="px-4 py-3 font-medium text-gray-900 whitespace-nowrap ">Apple
+                                        iMac 27&#34;</th>
+                                    <td class="px-4 py-3">PC</td>
+                                    <td class="px-4 py-3">Apple</td>
+                                    <td class="px-4 py-3">Softbelt</td>
+                                    <td class="px-4 py-3">152</td>
+                                    <td class="px-4 py-3">5</td>
+                                    <td class="px-4 py-3">2</td>
+                                    <td class="px-4 py-3">Activo (90 dias)</td>
+                                    <td class="px-4 py-3">15/06/2023</td>
+                                    <td class="px-4 py-3">15/08/2023</td>
+                                    <td class="px-4 py-3">152</td>
+
+                                    <td class="px-4 py-3 flex items-center gap-2 justify-start">
+                                        <button data-modal-target="details-modal" data-modal-toggle="details-modal"
+                                            class=" bg-blue-50  gap-2 border  rounded-md px-2 py-1 inline-flex items-center text-sm font-medium text-center text-blue-600 hover:bg-blue-100 hover:text-blue-700 transition duration-300ç  focus:outline-none  "
+                                            type="button">
+                                            Detalles
+                                            <svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                                viewBox="0 0 512 512" class=" w-5 h-5 "
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M64 64c0-17.7-14.3-32-32-32S0 46.3 0 64V400c0 44.2 35.8 80 80 80H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H80c-8.8 0-16-7.2-16-16V64zm406.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L320 210.7l-57.4-57.4c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L240 221.3l57.4 57.4c12.5 12.5 32.8 12.5 45.3 0l128-128z">
+                                                </path>
+                                            </svg>
+                                        </button>
+
+                                        <button data-modal-target="details-class-modal"
+                                            data-modal-toggle="details-class-modal"
+                                            class=" bg-blue-50  gap-2 border  rounded-md px-2 py-1 inline-flex items-center text-sm font-medium text-center text-blue-600 hover:bg-blue-100 hover:text-blue-700 transition duration-300ç  focus:outline-none  "
+                                            type="button">
+                                            Avance
+                                            <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24"
+                                                stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M13 5h8"></path>
+                                                <path d="M13 9h5"></path>
+                                                <path d="M13 15h8"></path>
+                                                <path d="M13 19h5"></path>
+                                                <path
+                                                    d="M3 4m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z">
+                                                </path>
+                                                <path
+                                                    d="M3 14m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z">
+                                                </path>
+                                            </svg>
+                                        </button>
+
+                                    </td>
+                                </tr>
+                                <tr class="border-b ">
+                                    <th scope="row" class="px-4 py-3 font-medium text-gray-900 whitespace-nowrap ">Apple
+                                        iMac 27&#34;</th>
+                                    <td class="px-4 py-3">PC</td>
+                                    <td class="px-4 py-3">Apple</td>
+                                    <td class="px-4 py-3">Softbelt</td>
+                                    <td class="px-4 py-3">152</td>
+                                    <td class="px-4 py-3">5</td>
+                                    <td class="px-4 py-3">2</td>
+                                    <td class="px-4 py-3">Activo (90 dias)</td>
+                                    <td class="px-4 py-3">15/06/2023</td>
+                                    <td class="px-4 py-3">15/08/2023</td>
+                                    <td class="px-4 py-3">152</td>
+
+                                    <td class="px-4 py-3 flex items-center gap-2 justify-start">
+                                        <button data-modal-target="details-modal" data-modal-toggle="details-modal"
+                                            class=" bg-blue-50  gap-2 border  rounded-md px-2 py-1 inline-flex items-center text-sm font-medium text-center text-blue-600 hover:bg-blue-100 hover:text-blue-700 transition duration-300ç  focus:outline-none  "
+                                            type="button">
+                                            Detalles
+                                            <svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                                viewBox="0 0 512 512" class=" w-5 h-5 "
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M64 64c0-17.7-14.3-32-32-32S0 46.3 0 64V400c0 44.2 35.8 80 80 80H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H80c-8.8 0-16-7.2-16-16V64zm406.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L320 210.7l-57.4-57.4c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L240 221.3l57.4 57.4c12.5 12.5 32.8 12.5 45.3 0l128-128z">
+                                                </path>
+                                            </svg>
+                                        </button>
+
+                                        <button data-modal-target="details-class-modal"
+                                            data-modal-toggle="details-class-modal"
+                                            class=" bg-blue-50  gap-2 border  rounded-md px-2 py-1 inline-flex items-center text-sm font-medium text-center text-blue-600 hover:bg-blue-100 hover:text-blue-700 transition duration-300ç  focus:outline-none  "
+                                            type="button">
+                                            Avance
+                                            <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24"
+                                                stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M13 5h8"></path>
+                                                <path d="M13 9h5"></path>
+                                                <path d="M13 15h8"></path>
+                                                <path d="M13 19h5"></path>
+                                                <path
+                                                    d="M3 4m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z">
+                                                </path>
+                                                <path
+                                                    d="M3 14m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z">
+                                                </path>
+                                            </svg>
+                                        </button>
+
+                                    </td>
+                                </tr>
+                                <tr class="border-b ">
+                                    <th scope="row" class="px-4 py-3 font-medium text-gray-900 whitespace-nowrap ">Apple
+                                        iMac 27&#34;</th>
+                                    <td class="px-4 py-3">PC</td>
+                                    <td class="px-4 py-3">Apple</td>
+                                    <td class="px-4 py-3">Softbelt</td>
+                                    <td class="px-4 py-3">152</td>
+                                    <td class="px-4 py-3">5</td>
+                                    <td class="px-4 py-3">2</td>
+                                    <td class="px-4 py-3">Activo (90 dias)</td>
+                                    <td class="px-4 py-3">15/06/2023</td>
+                                    <td class="px-4 py-3">15/08/2023</td>
+                                    <td class="px-4 py-3">152</td>
+
+                                    <td class="px-4 py-3 flex items-center gap-2 justify-start">
+                                        <button data-modal-target="details-modal" data-modal-toggle="details-modal"
+                                            class=" bg-blue-50  gap-2 border  rounded-md px-2 py-1 inline-flex items-center text-sm font-medium text-center text-blue-600 hover:bg-blue-100 hover:text-blue-700 transition duration-300ç  focus:outline-none  "
+                                            type="button">
+                                            Detalles
+                                            <svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                                viewBox="0 0 512 512" class=" w-5 h-5 "
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M64 64c0-17.7-14.3-32-32-32S0 46.3 0 64V400c0 44.2 35.8 80 80 80H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H80c-8.8 0-16-7.2-16-16V64zm406.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L320 210.7l-57.4-57.4c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L240 221.3l57.4 57.4c12.5 12.5 32.8 12.5 45.3 0l128-128z">
+                                                </path>
+                                            </svg>
+                                        </button>
+
+                                        <button data-modal-target="details-class-modal"
+                                            data-modal-toggle="details-class-modal"
+                                            class=" bg-blue-50  gap-2 border  rounded-md px-2 py-1 inline-flex items-center text-sm font-medium text-center text-blue-600 hover:bg-blue-100 hover:text-blue-700 transition duration-300ç  focus:outline-none  "
+                                            type="button">
+                                            Avance
+                                            <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24"
+                                                stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M13 5h8"></path>
+                                                <path d="M13 9h5"></path>
+                                                <path d="M13 15h8"></path>
+                                                <path d="M13 19h5"></path>
+                                                <path
+                                                    d="M3 4m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z">
+                                                </path>
+                                                <path
+                                                    d="M3 14m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z">
+                                                </path>
+                                            </svg>
+                                        </button>
+
+                                    </td>
+                                </tr>
                                 <tr class="border-b ">
                                     <th scope="row" class="px-4 py-3 font-medium text-gray-900 whitespace-nowrap ">Apple
                                         iMac 27&#34;</th>
@@ -288,7 +1155,8 @@
                             <input style="border-radius:8px !important" type="date" name="from"
                                 class="form-control dpd1 flex-1">
                             <span class=" rounded-lg p-2.5 ">Hasta</span>
-                            <input style="border-radius:8px !important" type="date" name="to" class="form-control dpd2 flex-1">
+                            <input style="border-radius:8px !important" type="date" name="to"
+                                class="form-control dpd2 flex-1">
                         </div>
                     </div>
 
@@ -387,6 +1255,34 @@
                 <!-- Modal body -->
                 <div class="p-4 md:p-5 space-y-4">
                     <div class=" w-full">
+
+                        <div class="flex mb-4 md:grid md:grid-cols-12 flex-col gap-2">
+                            <div class="  md:col-span-8 flex flex-row gap-8 justify-start items-center flex-wrap">
+                                <div class="user-identity">
+                                    <h4 class=" font-bold text-4xl text-slate-800"><strong id="nombre">John Doe</strong>
+                                    </h4>
+                                    <p class=" font-bold text-3xl text-slate-600"> <strong id="apellidos">Riaxe Systems
+                                            Pvt</strong> </p>
+                                </div>
+                            </div>
+                            <div class=" col-span-4">
+                                <label for="countries"
+                                    class="block mb-2 text-sm font-medium text-gray-900 ">Selecciona una
+                                    sesión
+                                </label>
+                                <select id="sesion"
+                                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 ">
+                                    <option selected>Todos</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                </select>
+                            </div>
+
+
+                        </div>
+
                         <div class="mb-4 border-b border-gray-200 ">
                             <ul class="flex flex-wrap -mb-px text-sm font-medium text-center" id="default-styled-tab"
                                 data-tabs-toggle="#default-styled-tab-content"

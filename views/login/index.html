@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Login - Lektor Executive Admin</title>
+</head>
+
+<body>
+    <div class="relative min-h-screen ">
+        <img src="../../assets//images/login/bg.jpg"
+            class="absolute inset-0 w-full h-full object-cover -z-10" id="bg-video">
+        <source class=" h-full w-full" src="../../assets/videos/bg3.mp4" type="video/mp4">
+        </img>
+        <div class=" min-h-screen w-full z-20 flex flex-col justify-between">
+
+            <div
+                class="flex flex-1 items-center md:items-end max-w-4xl md:max-w-2xl lg:max-w-4xl xl:max-w-6xl 2xl:max-w-7xl mx-auto w-full flex-col justify-center lg:justify-center mb-12 px-4 lg:px-0 pt-4 lg:pt-0 lg:pr-2 lg:pt-2  pt-0 ">
+                <div class="  ">
+                    <div class=" bg-white p-10 md:p-6 rounded-t-lg md:mx-auto sm:w-full max-w-xs 2xl:max-w-md">
+                        <div class=" px-10 flex flex-col gap-4 w-full ">
+
+                            <img class="mx-auto  w-[200px] 2xl:w-[300px]"
+                                src="../../assets/images/login/logo lektor 1.png" alt="Lektor Executive">
+                        </div>
+                    </div>
+
+                    <div
+                        class=" bg-gradient-to-r  from-orange-500 px-10 py-4 md:py-6 rounded-b-lg  to-yellow-500 md:mx-auto md:w-full max-w-xs 2xl:max-w-md">
+                        <h2 class=" text-center text-2xl font-bold leading-9 tracking-tight text-white mb-4">Ingresar a
+                            tu cuenta
+                        </h2>
+                        <form class="space-y-6 rounded-lg" action="#" method="POST">
+                            <div class="flex">
+                                <img class=" w-10 h-auto"
+                                    class="mx-auto  hover:opacity-90 transition duration-300  w-full"
+                                    src="../../assets/images/login/icono usuario 1.png" alt="Lektor Executive">
+                                <input type="text" id="user"
+                                    class="rounded-none rounded-e-lg bg-gray-50 border text-gray-900 focus:ring-blue-500 focus:border-blue-500 block flex-1 min-w-0 w-full text-sm border-gray-300 p-2.5 "
+                                    placeholder="Ingresa tu Usuario">
+                            </div>
+
+                            <div class="flex">
+                                <img class=" w-10 h-auto"
+                                    class="mx-auto  hover:opacity-90 transition duration-300  w-full"
+                                    src="../../assets/images/login/icono contraseña 1.png" alt="Lektor Executive">
+                                <input type="password" id="password"
+                                    class="rounded-none rounded-e-lg bg-gray-50 border text-gray-900 focus:ring-blue-500 focus:border-blue-500 block flex-1 min-w-0 w-full text-sm border-gray-300 p-2.5 "
+                                    placeholder="Ingresa tu Contraseña">
+                            </div>
+
+                            <div class=" flex justify-between text-sm  text-white gap-2 w-full">
+                                <div class="flex items-center  ">
+                                    <input id="default-checkbox" type="checkbox" value=""
+                                        class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500  focus:ring-2 ">
+                                    <label for="default-checkbox" class="ms-2 text-sm font-medium text-white ">Recordar
+                                        mis datos</label>
+                                </div>
+                         
+
+                            </div>
+
+                            <div>
+                                <button type="submit">
+                                    <img class="mx-auto  hover:opacity-90 transition duration-300  w-full"
+                                        src="../../assets/images/login/boton iniciar sesion 1.png"
+                                        alt="Lektor Executive">
+                                </button>
+
+
+                                <svg version="1.1" id="L5" class="w-full h-8" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100"
+                                    enable-background="new 0 0 0 0" xml:space="preserve">
+                                    <circle fill="white" stroke="none" cx="6" cy="50" r="12">
+                                        <animateTransform attributeName="transform" dur="1s" type="translate"
+                                            values="0 15 ; 0 -15; 0 15" repeatCount="indefinite" begin="0.1" />
+                                    </circle>
+                                    <circle fill="white" stroke="none" cx="50" cy="50" r="12">
+                                        <animateTransform attributeName="transform" dur="1s" type="translate"
+                                            values="0 10 ; 0 -10; 0 10" repeatCount="indefinite" begin="0.2" />
+                                    </circle>
+                                    <circle fill="white" stroke="none" cx="84" cy="50" r="12">
+                                        <animateTransform attributeName="transform" dur="1s" type="translate"
+                                            values="0 5 ; 0 -5; 0 5" repeatCount="indefinite" begin="0.3" />
+                                    </circle>
+                                </svg>
+
+                            </div>
+                        </form>
+
+                    </div>
+
+                    <div class="  max-w-xs 2xl:max-w-md grid gap-10 grid-cols-2 mt-6">
+                        <div class="flex flex-col justify-center w-full">
+                            <img class="mx-auto max-w-xs    w-full" src="../../assets/images/login/logo soft bell.png"
+                                alt="Your Company">
+                        </div>
+                        <img class="mx-auto max-w-xs   w-full"
+                            src="../../assets/images/logo/logo de escuela de superaprendizaje-02.png"
+                            alt="Your Company">
+
+                    </div>
+                </div>
+            </div>
+
+            <footer class="fixed bottom-0 left-0 w-full">
+                <div class="site-footer px-6 bg-blue-500  text-white py-2 border-t border-sky-200">
+                    <div class=" flex justify-center">
+                        <div class="text-center ltr:md:text-start rtl:md:text-right text-sm">
+                            &copy; Todos los derechos reservados. Propiedad de Soft Belt.
+                        </div>
+
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

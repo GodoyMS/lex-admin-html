@@ -14,8 +14,10 @@
   <script src="https://unpkg.com/@popperjs/core@2"></script>
   <script src="https://cdn.tailwindcss.com"></script>
 
-  <script defer data-site="YOUR_DOMAIN_HERE" src="https://api.nepcha.com/js/nepcha-analytics.js"></script>
-</head>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+
+  </head>
 
 <body class="m-0 font-sans text-base antialiased font-normal leading-default bg-[#f8f6fa] text-slate-500">
  
@@ -93,7 +95,7 @@
           <div class="w-full flex gap-4">
             <div class="flex flex-col justify-center">
               <div class=" rounded-full bg-orange-500 bg-opacity-10 p-3">
-                <svg xmlns="http://www.w3.org/2000/svg" class=" text-green-700 w-8 h-8" viewBox="0 0 24 24">
+                <svg xmlns="http://www.w3.org/2000/svg" class=" text-orange-700 w-8 h-8" viewBox="0 0 24 24">
                   <g fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2">
                     <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
                     <circle cx="9" cy="7" r="4" />
@@ -114,16 +116,91 @@
               Mostrar lista de usuarios
             </p>
           </a>          
-        </div>
+        </div>        
       </div>
+
+      <div class=" p-6 mt-6 bg-white rounded-2xl w-full ">
+        <div class="mb-4">
+          <h2 class="font-black text-black text-2xl text-center">COMPARATIVO DE VENTAS</h2>
+</div>
+
+        <canvas class="w-full max-h-[400px]" id="graficoVentas"></canvas>
+
+        </div>
     </div>
 
-    <!-- end Navbar -->
-
-    <!-- cards -->
-
-    <!-- end cards -->
   </main>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.js"></script>
+
+<script>
+    let myChart = null;
+    const ctx = document.getElementById('graficoVentas').getContext('2d');
+    myChart = new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: ['Ene', 'Feb', 'Mar','Abr' ,'May', 'Jun', 'Jul', 'Ago', 'Sept', 'Oct', 'Nov', 'Dic'],
+            datasets: [{
+                label: 'MGP ',
+                // data: response.data[0].dataPoints.map((e) => e.y),
+                data: [15, 22, 15, 53, 85,21,94,8,120,82,12,48],
+                borderColor: 'rgb(51, 153, 255)',
+                backgroundColor: 'rgba(51, 153, 255, 0.1)',
+                fill: true,
+                tension: 0.1
+            },
+            {
+                label: 'OTR',
+                data: [5, 78, 45, 13, 65,91,194,81,120,86,18,26],
+                borderColor: 'rgb(249, 115, 22)',
+                backgroundColor: 'rgba(249, 115, 22, 0.1)',
+                fill: true,
+                tension: 0.1
+            },
+            {
+                label: 'SOF',
+                data: [2, 28, 55, 83, 15,9,19,8,18,29,11,56],
+                borderColor: 'rgb(249, 0, 22)',
+                backgroundColor: 'rgba(249, 0, 22, 0.1)',
+                fill: true,
+                tension: 0.1
+            }
+            ]
+        },
+        options: {
+            responsive: true,
+            plugins: {
+                legend: {
+                    labels: {
+                        color: "rgba(0, 0, 255, 0.9)"
+                    }
+                }
+            },
+            scales: {
+                x: {
+                    beginAtZero: true,
+                    ticks: {
+                        color: "rgba(0, 0, 0, 0.9)"
+                    },
+                    grid: {
+                        color: 'rgba(255,255,255,1)',
+                    },
+                },
+                y: {
+                    beginAtZero: true,
+                    grid: {
+                        color: 'rgba(0, 0, 0,0.08)',
+                    },
+                    ticks: {
+                        color: "rgba(0, 0, 0, 0.9)"
+                    }
+
+                }
+            }
+        }
+    });
+</script>
 
 </body>
 <!-- plugin for charts  -->

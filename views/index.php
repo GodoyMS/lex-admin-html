@@ -158,14 +158,7 @@
                 fill: true,
                 tension: 0.1
             },
-            {
-                label: 'SOF',
-                data: [2, 28, 55, 83, 15,9,19,8,18,29,11,56],
-                borderColor: 'rgb(249, 0, 22)',
-                backgroundColor: 'rgba(249, 0, 22, 0.1)',
-                fill: true,
-                tension: 0.1
-            }
+          
             ]
         },
         options: {

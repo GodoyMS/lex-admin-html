@@ -44,7 +44,7 @@
               </select>
             </div>
             <div>
-             <label for="transac" class="block mb-2 text-sm font-medium text-gray-900 ">Transacción</label>
+             <label for="transac" class="block mb-2 text-sm font-medium text-gray-900 ">Empresa</label>
              <select id="transac" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 ">
                 <option value="Todos">Todos</option>
                 <option value="10">Cajamarca</option>
@@ -53,10 +53,20 @@
 
               </select>
             </div>
-        </div>
-        <div class="mb-4">
+            <div>
+             <label for="transac" class="block mb-2 text-sm font-medium text-gray-900 ">Tipo</label>
+             <select id="transac" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 ">
+                <option value="Todos">Velocidad final</option>
+                <option value="10">Velocidad inicial</option>
+        
 
-          <h2 class="font-black text-black text-2xl text-center">COMPARATIVO DE VIP</h2>
+              </select>
+            </div>
+        </div>
+        <div class="mb-4 mt-2 lg:mt-1">
+
+          <h2 class="font-black text-black text-2xl text-center">RANKING DE VIP</h2>
+          <h2 class="font-bold text-blue-800 text-black text-xl text-center">Velocidad inicial</h2>
             </div>
 
         <canvas class="w-full h-full max-h-[400px] md:max-h-[450px] xl:max-h-[500px] 2xl:max-h-[600px]" id="graficoVentas"></canvas>
@@ -109,10 +119,14 @@
   }]
         },
         options: {
-            indexAxis: 'y',
-            responsive: true,
-          
-        }
+                indexAxis: 'y',
+                responsive: true,
+                plugins: {
+                    legend: {
+                        display: false  // Hide the legend labels
+                    }
+                }
+            }
     });
 </script>
 

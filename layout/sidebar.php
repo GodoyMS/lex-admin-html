@@ -4,8 +4,8 @@
         <i class="absolute top-0 right-0 hidden p-4 opacity-50 cursor-pointer fas fa-times text-slate-400 xl:hidden"
             sidenav-close></i>
         <a class="block px-8 py-6 m-0 text-sm whitespace-nowrap text-slate-700" href="/" target="_blank">
-            <img src="https://www.softbelt.org/assets/images/logo_softbelt_2.svg"
-                class="inline h-full max-w-full transition-all duration-200 ease-nav-brand max-h-8" alt="main_logo" />
+            <img src="../../assets/images/layout/logo-horizontal.png"
+                class="inline h-full max-w-full transition-all duration-200 ease-nav-brand " alt="main_logo" />
             <!-- <span class="ml-1 font-semibold transition-all duration-200 ease-nav-brand">Soft UI Dashboard</span> -->
         </a>
     </div>
@@ -124,7 +124,7 @@
 
 
             </li>
-            <li class=" w-full ">
+            <!-- <li class=" w-full ">
             <a class="group transition duration-300 cursor-pointer flex gap-0 bg-white  w-full"
             href="comparativos">
             <div class="  pr-4  flex flex-col items-start justify-center bg-[#f8f6fa]    ">
@@ -160,7 +160,7 @@
             </a>
                
 
-            </li>
+            </li> -->
             <li class=" w-full  ">
                 <a href="ranking" class="  group transition duration-300 cursor-pointer flex gap-0 bg-white w-full">
                 <div class="  pr-4  flex flex-col items-start justify-center bg-[#f8f6fa] pb-2 rounded-br-[30px]  ">

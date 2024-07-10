@@ -12,7 +12,7 @@
 
 
     <div
-        class="items-center bg-white rounded-b-2xl  rounded-tr-0  block w-auto max-h-screen overflow-auto h-sidenav grow basis-full">
+        class="items-center bg-white rounded-bl-2xl  rounded-tr-0  block w-auto max-h-screen overflow-auto h-sidenav grow basis-full">
 
         <ul class="flex flex-col pl-0 mb-0">
             <li class="  w-full">
@@ -124,43 +124,7 @@
 
 
             </li>
-            <!-- <li class=" w-full ">
-            <a class="group transition duration-300 cursor-pointer flex gap-0 bg-white  w-full"
-            href="comparativos">
-            <div class="  pr-4  flex flex-col items-start justify-center bg-[#f8f6fa]    ">
-                    <div
-                        class="p-2 flex justify-center items-center h-9 w-9 aspect-square bg-violet-600  group-hover:bg-violet-500  text-white  rounded-full">
-                        Co
-                    </div>
-                </div>
-                <div class=" flex-1 w-full flex flex-col justify-center px-2">
-                    <div
-                        class="  p-1 transition duration-300 group-hover:bg-gradient-to-r group-hover:from-violet-400 group-hover:to-violet-600  col-span-9 w-full gap-2 flex justify-start items-center rounded-full">
-                        <div
-                            class="transition duration-300 group-hover:bg-violet-600 group-hover:bg-opacity-90 p-2 rounded-full">
-
-
-                            <svg xmlns="http://www.w3.org/2000/svg"
-                                class=" text-black group-hover:text-white  duration-500  w-6 h-6 group-hover:h-7 group-hover:w-7 transition-all "
-                                viewBox="0 0 16 16">
-                                <path fill="currentColor" fillRule="evenodd"
-                                    d="M1.5 14H15v-1H2V0H1v13.5zM3 11.5v-8l.5-.5h2l.5.5v8l-.5.5h-2zm2-.5V4H4v7zm6-9.5v10l.5.5h2l.5-.5v-10l-.5-.5h-2zm2 .5v9h-1V2zm-6 9.5v-6l.5-.5h2l.5.5v6l-.5.5h-2zm2-.5V6H8v5z"
-                                    clipRule="evenodd" />
-                            </svg>
-                        </div>
-                        <div>
-                            <span class=" text-base font-semibold group-hover:text-white text-black">
-                                Comparativos
-                            </span>
-
-                        </div>
-                    </div>
-
-                </div>
-            </a>
-               
-
-            </li> -->
+          
             <li class=" w-full  ">
                 <a href="ranking" class="  group transition duration-300 cursor-pointer flex gap-0 bg-white w-full">
                 <div class="  pr-4  flex flex-col items-start justify-center bg-[#f8f6fa] pb-2 rounded-br-[30px]  ">
@@ -203,36 +167,93 @@
             <li class="w-full pt-4  ">
                 <h6 class="pl-6 ml-2 text-xs font-bold leading-tight uppercase opacity-60">Administración</h6>
             </li>
-            <li class="mt-0.5 w-full">
-                <a class="py-2.7 text-sm ease-nav-brand my-0 mx-4 flex items-center whitespace-nowrap px-4 transition-colors"
-                    href="./pages/profile.html">
+            <li class="mt-2 text-gray-700 w-full px-2">
+                <a class=" group rounded-full hover:bg-blue-500 hover:bg-opacity-10 text-sm ease-nav-brand  flex items-center whitespace-nowrap px-2 py-2 transition-colors"
+                    href="/hs-admin/views/administracion-usuarios">
                     <div
-                        class="shadow-soft-2xl mr-2 flex h-8 w-8 items-center justify-center rounded-lg bg-white bg-center stroke-0 text-center xl:p-2.5">
-                        <svg width="12px" height="12px" viewBox="0 0 46 42" version="1.1"
-                            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <title>customer-support</title>
-                            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                <g transform="translate(-1717.000000, -291.000000)" fill="#FFFFFF" fill-rule="nonzero">
-                                    <g transform="translate(1716.000000, 291.000000)">
-                                        <g transform="translate(1.000000, 0.000000)">
-                                            <path class="fill-slate-800 opacity-60"
-                                                d="M45,0 L26,0 C25.447,0 25,0.447 25,1 L25,20 C25,20.379 25.214,20.725 25.553,20.895 C25.694,20.965 25.848,21 26,21 C26.212,21 26.424,20.933 26.6,20.8 L34.333,15 L45,15 C45.553,15 46,14.553 46,14 L46,1 C46,0.447 45.553,0 45,0 Z">
-                                            </path>
-                                            <path class="fill-slate-800"
-                                                d="M22.883,32.86 C20.761,32.012 17.324,31 13,31 C8.676,31 5.239,32.012 3.116,32.86 C1.224,33.619 0,35.438 0,37.494 L0,41 C0,41.553 0.447,42 1,42 L25,42 C25.553,42 26,41.553 26,41 L26,37.494 C26,35.438 24.776,33.619 22.883,32.86 Z">
-                                            </path>
-                                            <path class="fill-slate-800"
-                                                d="M13,28 C17.432,28 21,22.529 21,18 C21,13.589 17.411,10 13,10 C8.589,10 5,13.589 5,18 C5,22.529 8.568,28 13,28 Z">
-                                            </path>
-                                        </g>
-                                    </g>
-                                </g>
-                            </g>
-                        </svg>
+                        class="shadow-soft-2xl mr-2 group-hover:p-2 transition duration-300 flex items-center justify-center rounded-full group-hover:bg-blue-500 group-hover:text-white  stroke-0 text-center ">
+                      
+                        <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class=" w-5 h-5" xmlns="http://www.w3.org/2000/svg"><path d="M10 13a2 2 0 1 0 4 0a2 2 0 0 0 -4 0"></path><path d="M8 21v-1a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v1"></path><path d="M15 5a2 2 0 1 0 4 0a2 2 0 0 0 -4 0"></path><path d="M17 10h2a2 2 0 0 1 2 2v1"></path><path d="M5 5a2 2 0 1 0 4 0a2 2 0 0 0 -4 0"></path><path d="M3 13v-1a2 2 0 0 1 2 -2h2"></path></svg>
                     </div>
-                    <span class="ml-1 duration-300 opacity-100 pointer-events-none ease-soft">Usuarios</span>
+                    <span class="ml-1  group-hover:text-blue-700 font-semibold  duration-300 opacity-100 pointer-events-none ease-soft">Usuarios</span>
                 </a>
             </li>
+
+            <li class="mt-0.5 text-gray-700 w-full px-2">
+                <a class=" group rounded-full hover:bg-blue-500 hover:bg-opacity-10 text-sm ease-nav-brand  flex items-center whitespace-nowrap px-2 py-2 transition-colors"
+                href="/hs-admin/views/administracion-clases">
+                    <div
+                        class="shadow-soft-2xl mr-2 group-hover:p-2 transition duration-300 flex items-center justify-center rounded-full group-hover:bg-blue-500 group-hover:text-white  stroke-0 text-center ">
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img" viewBox="0 0 24 24" class=" w-5 h-5" xmlns="http://www.w3.org/2000/svg"><path d="M1.6367 1.6367C.7322 1.6367 0 2.369 0 3.2734v17.4532c0 .9045.7322 1.6367 1.6367 1.6367h20.7266c.9045 0 1.6367-.7322 1.6367-1.6367V3.2734c0-.9045-.7322-1.6367-1.6367-1.6367H1.6367zm.545 2.1817h19.6367v16.3632h-2.7266v-1.0898h-4.9102v1.0898h-12V3.8184zM12 8.1816c-.9046 0-1.6367.7322-1.6367 1.6368 0 .9045.7321 1.6367 1.6367 1.6367.9046 0 1.6367-.7322 1.6367-1.6367 0-.9046-.7321-1.6368-1.6367-1.6368zm-4.3633 1.9102c-.6773 0-1.2285.5493-1.2285 1.2266 0 .6772.5512 1.2265 1.2285 1.2265.6773 0 1.2266-.5493 1.2266-1.2265 0-.6773-.5493-1.2266-1.2266-1.2266zm8.7266 0c-.6773 0-1.2266.5493-1.2266 1.2266 0 .6772.5493 1.2265 1.2266 1.2265.6773 0 1.2285-.5493 1.2285-1.2265 0-.6773-.5512-1.2266-1.2285-1.2266zM12 12.5449c-1.179 0-2.4128.4012-3.1484 1.0059-.384-.1198-.8043-.1875-1.2149-.1875-1.3136 0-2.7285.695-2.7285 1.5586v.8965h14.1836v-.8965c0-.8637-1.4149-1.5586-2.7285-1.5586-.4106 0-.831.0677-1.2149.1875-.7356-.6047-1.9694-1.0059-3.1484-1.0059Z"></path></svg>
+                    </div>
+                    <span class="ml-1  group-hover:text-blue-700 font-semibold  duration-300 opacity-100 pointer-events-none ease-soft">Clases</span>
+                </a>
+            </li>
+            <li class="mt-0.5 text-gray-700 w-full px-2">
+                <a class=" group rounded-full hover:bg-blue-500 hover:bg-opacity-10 text-sm ease-nav-brand  flex items-center whitespace-nowrap px-2 py-2 transition-colors"
+                href="/hs-admin/views/administracion-ejercicios">
+                    <div
+                        class="shadow-soft-2xl mr-2 group-hover:p-2 transition duration-300 flex items-center justify-center rounded-full group-hover:bg-blue-500 group-hover:text-white  stroke-0 text-center ">
+
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 256 256" class="w-5 h-5" xmlns="http://www.w3.org/2000/svg"><path d="M248,124a56.11,56.11,0,0,0-32-50.61V72a48,48,0,0,0-88-26.49A48,48,0,0,0,40,72v1.39a56,56,0,0,0,0,101.2V176a48,48,0,0,0,88,26.49A48,48,0,0,0,216,176v-1.41A56.09,56.09,0,0,0,248,124ZM88,208a32,32,0,0,1-31.81-28.56A55.87,55.87,0,0,0,64,180h8a8,8,0,0,0,0-16H64A40,40,0,0,1,50.67,86.27,8,8,0,0,0,56,78.73V72a32,32,0,0,1,64,0v68.26A47.8,47.8,0,0,0,88,128a8,8,0,0,0,0,16,32,32,0,0,1,0,64Zm104-44h-8a8,8,0,0,0,0,16h8a55.87,55.87,0,0,0,7.81-.56A32,32,0,1,1,168,144a8,8,0,0,0,0-16,47.8,47.8,0,0,0-32,12.26V72a32,32,0,0,1,64,0v6.73a8,8,0,0,0,5.33,7.54A40,40,0,0,1,192,164Zm16-52a8,8,0,0,1-8,8h-4a36,36,0,0,1-36-36V80a8,8,0,0,1,16,0v4a20,20,0,0,0,20,20h4A8,8,0,0,1,208,112ZM60,120H56a8,8,0,0,1,0-16h4A20,20,0,0,0,80,84V80a8,8,0,0,1,16,0v4A36,36,0,0,1,60,120Z"></path></svg>                    </div>
+                    <span class="ml-1  group-hover:text-blue-700 font-semibold  duration-300 opacity-100 pointer-events-none ease-soft">Ejercicios</span>
+                </a>
+            </li>
+                 <li class="mt-0.5 text-gray-700 w-full px-2">
+                <a class=" group rounded-full hover:bg-blue-500 hover:bg-opacity-10 text-sm ease-nav-brand  flex items-center whitespace-nowrap px-2 py-2 transition-colors"
+                href="/hs-admin/views/administracion-lecturas">
+                    <div
+                        class="shadow-soft-2xl mr-2 group-hover:p-2 transition duration-300 flex items-center justify-center rounded-full group-hover:bg-blue-500 group-hover:text-white  stroke-0 text-center ">
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class=" w-5 h-5" xmlns="http://www.w3.org/2000/svg"><path d="M426.2 80.4l-170.2 32-170.2-32C64 77 48 97.3 48 118v244.5c0 20.7 16 32.6 37.8 37.6L256 432l170.2-32c21.8-5 37.8-16.9 37.8-37.6V118c0-20.7-16-41-37.8-37.6zm0 282l-151.2 32V149.9l151.2-32v244.5zm-189.2 32l-151.2-32V118L237 150v244.4z"></path></svg>        
+                      </div>
+                    <span class="ml-1  group-hover:text-blue-700 font-semibold duration-300 opacity-100 pointer-events-none ease-soft">Lecturas</span>
+                </a>
+            </li>
+
+            </li>
+                 <li class="mt-0.5 text-gray-700 w-full px-2">
+                <a class=" group rounded-full hover:bg-blue-500 hover:bg-opacity-10 text-sm ease-nav-brand  flex items-center whitespace-nowrap px-2 py-2 transition-colors"
+                href="/hs-admin/views/administracion-empresas">
+                    <div
+                        class="shadow-soft-2xl mr-2 group-hover:p-2 transition duration-300 flex items-center justify-center rounded-full group-hover:bg-blue-500 group-hover:text-white  stroke-0 text-center ">
+                        
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class=" w-5 h-5" xmlns="http://www.w3.org/2000/svg"><path d="M19 2H9c-1.103 0-2 .897-2 2v6H5c-1.103 0-2 .897-2 2v9a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V4c0-1.103-.897-2-2-2zM5 12h6v8H5v-8zm14 8h-6v-8c0-1.103-.897-2-2-2H9V4h10v16z"></path><path d="M11 6h2v2h-2zm4 0h2v2h-2zm0 4.031h2V12h-2zM15 14h2v2h-2zm-8 .001h2v2H7z"></path></svg>
+                      </div>
+                    <span class="ml-1  group-hover:text-blue-700 font-semibold duration-300 opacity-100 pointer-events-none ease-soft">Empresas</span>
+                </a>
+            </li>
+       
+            <!-- 
+            <li class="mt-0.5 text-gray-700 w-full px-2">
+                <a class="py-2.7 group rounded-full hover:bg-blue-500 hover:bg-opacity-10 text-sm ease-nav-brand  flex items-center whitespace-nowrap px-2 py-2 transition-colors"
+                    href="./pages/profile.html">
+                    <div
+                        class="shadow-soft-2xl mr-2 p-2 flex items-center justify-center rounded-full group-hover:bg-blue-500 group-hover:text-white  stroke-0 text-center ">
+                        <svg stroke="currentColor" fill="none" stroke-width="1.5" viewBox="0 0 24 24" aria-hidden="true"  class=" w-5 h-5" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19.128a9.38 9.38 0 0 0 2.625.372 9.337 9.337 0 0 0 4.121-.952 4.125 4.125 0 0 0-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 0 1 8.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0 1 11.964-3.07M12 6.375a3.375 3.375 0 1 1-6.75 0 3.375 3.375 0 0 1 6.75 0Zm8.25 2.25a2.625 2.625 0 1 1-5.25 0 2.625 2.625 0 0 1 5.25 0Z"></path></svg>
+                    </div>
+                    <span class="ml-1  group-hover:text-blue-700 group-hover:font-semibold duration-300 opacity-100 pointer-events-none ease-soft">Ejercicios</span>
+                </a>
+            </li>
+            <li class="mt-0.5 text-gray-700 w-full px-2">
+                <a class="py-2.7 group rounded-full hover:bg-blue-500 hover:bg-opacity-10 text-sm ease-nav-brand  flex items-center whitespace-nowrap px-2 py-2 transition-colors"
+                    href="./pages/profile.html">
+                    <div
+                        class="shadow-soft-2xl mr-2 p-2 flex items-center justify-center rounded-full group-hover:bg-blue-500 group-hover:text-white  stroke-0 text-center ">
+                        <svg stroke="currentColor" fill="none" stroke-width="1.5" viewBox="0 0 24 24" aria-hidden="true"  class=" w-5 h-5" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19.128a9.38 9.38 0 0 0 2.625.372 9.337 9.337 0 0 0 4.121-.952 4.125 4.125 0 0 0-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 0 1 8.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0 1 11.964-3.07M12 6.375a3.375 3.375 0 1 1-6.75 0 3.375 3.375 0 0 1 6.75 0Zm8.25 2.25a2.625 2.625 0 1 1-5.25 0 2.625 2.625 0 0 1 5.25 0Z"></path></svg>
+                    </div>
+                    <span class="ml-1  group-hover:text-blue-700 group-hover:font-semibold duration-300 opacity-100 pointer-events-none ease-soft">Lecturas</span>
+                </a>
+            </li>
+            <li class="mt-0.5 text-gray-700 w-full px-2">
+                <a class="py-2.7 group rounded-full hover:bg-blue-500 hover:bg-opacity-10 text-sm ease-nav-brand  flex items-center whitespace-nowrap px-2 py-2 transition-colors"
+                    href="./pages/profile.html">
+                    <div
+                        class="shadow-soft-2xl mr-2 p-2 flex items-center justify-center rounded-full group-hover:bg-blue-500 group-hover:text-white  stroke-0 text-center ">
+                        <svg stroke="currentColor" fill="none" stroke-width="1.5" viewBox="0 0 24 24" aria-hidden="true"  class=" w-5 h-5" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19.128a9.38 9.38 0 0 0 2.625.372 9.337 9.337 0 0 0 4.121-.952 4.125 4.125 0 0 0-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 0 1 8.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0 1 11.964-3.07M12 6.375a3.375 3.375 0 1 1-6.75 0 3.375 3.375 0 0 1 6.75 0Zm8.25 2.25a2.625 2.625 0 1 1-5.25 0 2.625 2.625 0 0 1 5.25 0Z"></path></svg>
+                    </div>
+                    <span class="ml-1  group-hover:text-blue-700 group-hover:font-semibold duration-300 opacity-100 pointer-events-none ease-soft">Empresas</span>
+                </a>
+            </li> -->
 
         </ul>
     </div>

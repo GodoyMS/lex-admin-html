@@ -24,7 +24,7 @@
   <?php include '../../layout/sidebar.php' ?>
 
 
-  <main class="ease-soft-in-out xl:ml-[290px] relative h-full max-h-screen rounded-xl transition-all duration-200">
+  <main class="ease-soft-in-out xl:ml-[240px] 2xl:ml-[290px] relative h-full max-h-screen rounded-xl transition-all duration-200">
     <!-- Navbar -->
      
     <?php include '../../layout/navbar.php' ?>
